@@ -16,4 +16,5 @@ for index in range(len(num_list)):
         print(f"The index of the search key is {index} and is found in the postion {index+1}")
 
 # Block off the for loop
-print(f"The value {search} couldn't be found within the list")
+if search not in num_list:
+    print(f"The value {search} couldn't be found within the list")
