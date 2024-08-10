@@ -27,4 +27,4 @@ CALL find_num_postion(num_list, search)
 END
 
 ## FLowchart Linear Search
-![flowchart](image-1.png)
+![flowchart](image.png)
