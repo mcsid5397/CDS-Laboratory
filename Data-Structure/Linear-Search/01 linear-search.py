@@ -4,6 +4,7 @@
     Author: M. Praveen Kumar
 """
 
+
 # Defining a function  to the operation of traversing
 def find_num_postion(num_list, search):
 
@@ -17,6 +18,7 @@ def find_num_postion(num_list, search):
     # If the loop is terminated without finding the number
     if search not in num_list:
         print("Enter a proper value")
+
 
 # Example usage
 # Defining a list of numbers within the list "num_list"
