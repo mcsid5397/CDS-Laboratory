@@ -19,7 +19,7 @@ def find_num_postion(num_list, search):
         print("Enter a proper value")
 
 # Example usage
-# Defining a list of numbers within the list
+# Defining a list of numbers within the list "num_list"
 num_list = [9, 0, 3, 6, 7, 4, 2, 8]
 """ 
     List in Python are sequence datatype,
@@ -27,3 +27,5 @@ num_list = [9, 0, 3, 6, 7, 4, 2, 8]
 """
 # Entering a value as search key
 search = int(input("Enter a number 0-9: "))
+# Calling the function with initialized variables
+find_num_postion(num_list, search)
