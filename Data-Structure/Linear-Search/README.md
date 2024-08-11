@@ -2,11 +2,9 @@
 A *Searching algorithm* used to find an element in a list. It works by checking each element in the list one by one from the start index until the nth index it finds the target element or reaches the end of the list. It's the basic version of any searching algorithm.
 
 ## Algorithm Linear Search
-
+```language
 START
-
 DEFINE FUNCTION find_num_postion(num_list, search):
-
     FOR index FROM 0 TO LENGTH(num_list) - 1:
         IF search == num_list[index]:
             PRINT "The index of number", search, "is", index
@@ -19,12 +17,9 @@ DEFINE FUNCTION find_num_postion(num_list, search):
     END IF
 
 DEFINE num_list AS [9, 0, 3, 6, 7, 4, 2, 8]
-
 PROMPT user TO ENTER a number AND STORE IT IN search
-
 CALL find_num_postion(num_list, search)
-
 END
-
+```
 ## FLowchart Linear Search
 ![flowchart](image.png)
