@@ -25,7 +25,7 @@ class Stack:
             return self.stack_items.pop()
         else:
             # if .isEmpty() -> TRUE; value unavailable to pop.
-            print("Stack is empty. Cannot pop.")
+            print("Stack is empty. Cannot pop element.")
 
     def peek(self):
         if not self.isEmpty():
@@ -36,7 +36,7 @@ class Stack:
             print("Stack is empty. Nothing to peek.")
 
     def size(self):
-        # Returning the legth of the stack.
+        # Returning the length of the stack.
         return len(self.stack_items)
 
     def isEmpty(self):
@@ -44,9 +44,14 @@ class Stack:
         return len(self.stack_items) == 0
 
     def display_stack(self):
-        for value in self.stack_items:
-            # Displaying stack contents as inserted/deleted.
-            print(value, end=" ")
+
+        if not self.isEmpty():
+            for value in self.stack_items:
+                # Displaying stack contents as inserted/deleted.
+                print(value, end=" ")
+        else:
+            # if .isEmpty() -> TRUE; no value found in the stack.
+            print("Stack is empty.")
 
 
 def main():
