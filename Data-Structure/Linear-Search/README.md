@@ -31,10 +31,10 @@ END
 ## Edge cases Linear Search
 
 1. The search key found in the last posiiton of the list
-![last index element](image-1.png)
+   ![last index element](image-1.png)
 
 2. The search key found in the first posiiton of the list
-![first index element](image-2.png)
+   ![first index element](image-2.png)
 
 3. The search key never found in the list
-![index element not found](image-3.png)
+   ![index element not found](image-3.png)
