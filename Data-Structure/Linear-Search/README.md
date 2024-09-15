@@ -26,7 +26,7 @@ END
 
 ## FLowchart Linear Search
 
-![flowchart](image.png)
+![flowchart](image.png)s
 
 ## Edge cases Linear Search
 
